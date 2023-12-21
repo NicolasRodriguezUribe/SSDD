@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalles de la Cerveza</title>
+</head>
+<body>
+<h1>Detalles de la Cerveza</h1>
+<div>
+    <p>Nombre: {{cerveza.nombre}}</p>
+    <p>Tipo: {{cerveza.tipo}}</p>
+    <p>Alcohol: {{cerveza.alcohol}}%</p>
+    <!-- Agrega aquí más detalles si es necesario -->
+</div>
+
+<div>
+    <a href="/cerveza/editar/{{cerveza.id}}">Editar Cerveza</a>
+    <a href="/cerveza/eliminar/{{cerveza.id}}" onclick="return confirm('¿Estás seguro de querer eliminar esta cerveza?');">Eliminar Cerveza</a>
+</div>
+
+<a href="/cervezas">Volver al listado</a>
+</body>
+</html>

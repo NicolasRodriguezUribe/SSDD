@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Cerveza</title>
+</head>
+<body>
+<h1>Editar Cerveza</h1>
+<form action="/cerveza/editar" method="post">
+    <input type="hidden" name="id" value="{{cerveza.id}}">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" value="{{cerveza.nombre}}"><br><br>
+    <label for="tipo">Tipo:</label>
+    <input type="text" id="tipo" name="tipo" value="{{cerveza.tipo}}"><br><br>
+    <label for="alcohol">Alcohol (%):</label>
+    <input type="number" id="alcohol" name="alcohol" value="{{cerveza.alcohol}}" step="0.1"><br><br>
+    <input type="submit" value="Editar">
+</form>
+</body>
+</html>

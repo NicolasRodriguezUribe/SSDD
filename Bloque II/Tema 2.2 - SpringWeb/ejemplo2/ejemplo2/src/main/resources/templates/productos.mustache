@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head> <title>Listado de Productos</title> </head>
+<body>
+<h1>Productos</h1>
+<ul>
+    {{#productos}}
+        <li>
+            {{nombre}} - ${{precio}}
+            {{#disponible}}
+                (Disponible)
+            {{/disponible}}
+            {{^disponible}}
+                (No disponible)
+            {{/disponible}}
+        </li>
+    {{/productos}}
+</ul>
+</body>
+</html>

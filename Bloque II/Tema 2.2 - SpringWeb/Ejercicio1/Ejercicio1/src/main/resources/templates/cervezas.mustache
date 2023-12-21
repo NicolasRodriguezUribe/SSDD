@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listado de Cervezas</title>
+</head>
+<body>
+    <h1>Cervezas Disponibles</h1>
+    <ul>
+        {{#cervezas}}
+        <li>
+            <a href="/cerveza/detalles/{{id}}">{{nombre}}</a>
+        </li>
+        {{/cervezas}}
+    </ul>
+    <a href="/cerveza/agregar">Agregar Cerveza</a>
+</body>
+</html>
