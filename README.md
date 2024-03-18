@@ -16,4 +16,5 @@ Para acceder a los ejemplos, sigue la estructura del repositorio. Por ejemplo, p
 Si estás interesado en contribuir a este proyecto, por favor contacta a Nicolás Rodríguez a través del correo electrónico [nicolas.rodriguez@urjc.es](mailto:nicolas.rodriguez@urjc.es) para discutir cómo puedes hacerlo. Se aceptan forks previa aprobación.
 
 ## Licencia
-Este proyecto está bajo la licencia "Atribución-CompartirIgual 4.0 Internacional" de Creative Commons. Para más información, visita [este enlace](https://creativecommons.org/licenses/by-sa/4.0/deed.es).
+Este proyecto está bajo la licencia  GNU GENERAL PUBLIC LICENSE V3
+
